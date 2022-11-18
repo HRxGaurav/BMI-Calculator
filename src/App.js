@@ -10,9 +10,9 @@ function App() {
   /**
    * State Variables initially set to zero
    */
-  const [weight,setWeight] = useState(0)
-  const [height,setHeight] = useState(0)
-  const [result,setResult] = useState(0)
+  const [weight,setWeight] = useState()
+  const [height,setHeight] = useState()
+  const [result,setResult] = useState()
   return (
     <div className="container">
     <main className="form-signin w-100 m-auto">

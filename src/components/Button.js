@@ -10,8 +10,8 @@ export default function Button({buttonValue,weight,height,setWeight,setHeight,se
         e.preventDefault()
         const heightInM=height/100
         setResult((weight/(heightInM*heightInM)).toFixed(0))
-        setWeight(0)
-        setHeight(0)
+        setWeight("")
+        setHeight("")
 
     }
   return (

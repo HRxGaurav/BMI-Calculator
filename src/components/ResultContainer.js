@@ -12,7 +12,7 @@ export default function ResultContainer({result_header,result}) {
         (()=>{
             
             if(isNaN(result)){
-                return "Enter valid values"
+                return "Enter values"
             }
             else if(result<18.5){
                 return "Underweight"
